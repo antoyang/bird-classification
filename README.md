@@ -7,7 +7,7 @@ Below is a t-SNE representation of the dataset, showing how close classes are.
 
 The two following images show how hard the task is, with an image example of the test set and a feature map obtained after the block 7 of a ResNext101 pretrained on ImageNet and finetuned on the augmented dataset described below.
 
-![example](example.jpg)
+![example](example.jpg | width=100)
 
 ![example](heatmap_example.png)
 
