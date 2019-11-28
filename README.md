@@ -9,7 +9,7 @@ The two following images show how hard the task is, with an image example of the
 
 Example image            |  Heatmap 
 :-------------------------:|:-------------------------:
-![example](example.jpg)  |  ![heatmap](heatmap_example.jpg)
+![example](example.jpg =224x224)  |  ![heatmap](heatmap_example.jpg)
 
 The main steps of this solution are:
 - A data-augmentation done by cropping birds with a Detectron2 implementation of Mask R-CNN (https://github.com/facebookresearch/detectron2), and an additionnal test augmentation done by duplicating the test set with its horizontally flipped version.
