@@ -8,9 +8,11 @@ Below is a t-SNE representation of the dataset, showing how close classes are.
 The two following images show how hard the task is, with an image example of the test set and a feature map obtained after the block 7 of a ResNext101 pretrained on ImageNet and finetuned on the augmented dataset described below.
 
 <p align="center">
+  
 Example image            |  Heatmap 
 :-------------------------:|:-------------------------:
 <img src=example.jpg width="224" height="224"> |  ![heatmap](heatmap_example.jpg)
+
 </p>
 
 The main steps of this solution are:
