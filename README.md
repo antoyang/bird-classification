@@ -7,4 +7,4 @@ The main steps are:
 - Feature extraction on the augmented data with an Inception3 model trained on ImageNet and the fine-grained image classification dataset iNat2017 (https://github.com/richardaecn/cvpr18-inaturalist-transfer).
 - 2-layer classifier of features training, final predictions being obtained by Max-TTA.
 
-More informations about the different techniques I tried are available in the pdf file. 
+More informations about the different techniques I tried are available in the pdf file. Provided notebooks were run on Google Colab.
