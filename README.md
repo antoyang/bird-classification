@@ -4,7 +4,7 @@ This repository presents my final solution for a 2019 class Kaggle competition (
 
 The main steps are:
 - A data-augmentation done by cropping birds with a Detectron2 implementation of Mask R-CNN (https://github.com/facebookresearch/detectron2), and an additionnal test augmentation done by duplicating the test set with its horizontally flipped version.
-- Feature extraction on the augmented data with an Inception3 model trained on ImageNet and the fine-grained image classification dataset iNat2017 (https://github.com/richardaecn/cvpr18-inaturalist-transfer).
+- Feature extraction on the augmented dataset with an Inception3 model trained on ImageNet and the fine-grained image classification dataset iNat2017 (https://github.com/richardaecn/cvpr18-inaturalist-transfer).
 - 2-layer classifier of features training, final predictions being obtained by Max-TTA.
 
 More informations about the different techniques I tried are available in the pdf file. Provided notebooks were run on Google Colab.
