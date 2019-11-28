@@ -5,7 +5,7 @@ This repository presents my final solution for a 2019 class Kaggle competition (
 Below is a t-SNE representation of the dataset, showing how close classes are.
 <img src=t-SNE.png width="800" height="600">
 
-The two following images show how hard the task is, with an image example of the test set and a feature map obtained after the block 7 of a ResNext101 pretrained on ImageNet and finetuned on the augmented dataset described below.
+The two following images show how hard the task is, with an image example of the test set and a heatmap obtained after the block 7 of a ResNext101 pretrained on ImageNet and finetuned on the augmented dataset described below.
   
 Example image            |  Heatmap 
 :-------------------------:|:-------------------------:
