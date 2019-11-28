@@ -6,14 +6,10 @@ Below is a t-SNE representation of the dataset, showing how close classes are.
 <img src=t-SNE.png width="800" height="600">
 
 The two following images show how hard the task is, with an image example of the test set and a feature map obtained after the block 7 of a ResNext101 pretrained on ImageNet and finetuned on the augmented dataset described below.
-
-<p align="center">
   
 Example image            |  Heatmap 
 :-------------------------:|:-------------------------:
 <img src=example.jpg width="224" height="224"> |  ![heatmap](heatmap_example.jpg)
-
-</p>
 
 The main steps of this solution are:
 - A data-augmentation done by cropping birds with a Detectron2 implementation of Mask R-CNN (https://github.com/facebookresearch/detectron2), and an additionnal test augmentation done by duplicating the test set with its horizontally flipped version.
