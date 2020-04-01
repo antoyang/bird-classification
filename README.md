@@ -17,4 +17,4 @@ The main steps of this solution are:
 - 2-layer classifier of features training, final predictions being obtained by Max-TTA.
 
 More informations about the different techniques I tried are available in the pdf file. Provided notebooks (Birds_Augmentation.ipynb and Birds_Main
-ipynb) were run on Google Colab. Additionally, notebooks for other homeworks of the MVA course "Object Recognition and Computer Vision class" (teached by Jean Ponce, Ivan Laptev, Cordelia Schmid and Josef Sivic) are provided (A1-instance-level-recognition and A2-neural_networks).
+ipynb) were run on Google Colab. 
